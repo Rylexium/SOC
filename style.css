@@ -1,0 +1,125 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42em;
+  color:#A7A1AE;
+  background-color:#1F2739;
+  text-align: center;
+  padding-left:0px;
+  padding-right:12px;
+}
+
+h1 {
+  font-size:2.5em;
+  font-weight: 280;
+  line-height:1em;
+  text-align: center;
+  color: #FB667A;
+}
+
+h2 {
+  text-align: center;
+  font-size:1em;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  line-height:1em;
+  padding-bottom: 2em;
+  color: #FB667A;
+}
+
+h2 a {
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FB667A;
+  text-decoration: none;
+}
+
+.blue { color: #185875; }
+.yellow { color: #FFF842; }
+
+
+.item th {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #185875;
+}
+
+.item td {
+	  font-weight: normal;
+	  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  text-align: center;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
+	        box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+/* Background-color of the odd rows */
+.item tr:nth-child(odd) {
+	  background-color: #323C50;
+	  margin-left: auto;
+      margin-right: auto;
+	  text-align: left;
+}
+
+/* Background-color of the even rows */
+.item tr:nth-child(even) {
+	  background-color: #2C3446;
+	  margin-left: auto;
+      margin-right: auto;
+	  text-align: left;
+}
+
+.item th {
+	  background-color: #1F2739;
+	  margin-left: auto;
+      margin-right: auto;
+	  text-align: center;
+}
+
+.item td:first-child {
+	  color: #FB667A;
+}
+
+.item tr:hover {
+   background-color: #464A52;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+	   -moz-box-shadow: 0 6px 6px -6px #0E1119;
+	        box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.item td:hover {
+  background-color: #FFF842;
+  color: #403E10;
+  font-weight: bold;
+
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+
+  transition-delay: 0s;
+	  transition-duration: 0.4s;
+	  transition-property: all;
+  transition-timing-function: line;
+}
+
+tr:nth-child(1) > td:nth-child(2) {
+    min-width:140px;
+}
+
+@media (max-width: 800px) {
+    .item td:nth-child(4),
+.item th:nth-child(4) {
+		  display: none;
+	  }
+}
+
+
